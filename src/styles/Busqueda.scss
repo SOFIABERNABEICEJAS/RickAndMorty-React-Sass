@@ -1,0 +1,29 @@
+@import "./mixin.scss";
+@import "./Variables.scss";
+
+.contenedor-form {
+	@include flex-central;
+	width: 95%;
+	margin: $margin-principal;
+	background-color: $color-principal;
+	border-radius: 10px;
+	font-family: $tipografia-principal;
+	font-size: large;
+	form {
+		color: antiquewhite;
+		input {
+			border-radius: 4px;
+			width: 200px;
+			height: 30px;
+			padding-left: 10px;
+			margin: $margin-principal;
+		}
+	}
+	.contenedor-img {
+		width: 80px;
+
+		img {
+			width: 100%;
+		}
+	}
+}

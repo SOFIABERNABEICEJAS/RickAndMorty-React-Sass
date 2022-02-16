@@ -1,0 +1,44 @@
+@import "./Variables.scss";
+@import "./mixin.scss";
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	border-radius: $border-radius;
+	background-color: $color-principal;
+
+	.contenedor-titulo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: $margin-principal;
+		margin-left: $margin-principal;
+		width: 300px;
+		img {
+			width: 100%;
+		}
+	}
+	.contenedor-botones {
+		display: flex;
+		align-items: flex-end;
+
+		button {
+			font-family: $tipografia-principal;
+			font-size: x-large;
+			margin: $margin-secundario;
+			border: none;
+			height: 45px;
+			border-radius: $border-radius;
+			background-color: $color-principal;
+			color: $color-segundario;
+			box-shadow: $sombra-principal;
+		}
+	}
+	.contenedor-imagen {
+		margin-bottom: $margin-principal;
+		img {
+			width: 100%;
+		}
+	}
+}
