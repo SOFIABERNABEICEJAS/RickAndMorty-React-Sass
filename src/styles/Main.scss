@@ -5,32 +5,6 @@
 	@include flex-colum;
 	width: 95%;
 	background-color: $color-segundario;
-	.contenedor-form {
-		@include flex-central;
-		width: 100%;
-		margin: $margin-principal;
-		background-color: $color-principal;
-		border-radius: 10px;
-		font-family: $tipografia-principal;
-		font-size: large;
-		form {
-			color: antiquewhite;
-			input {
-				border-radius: 4px;
-				width: 200px;
-				height: 30px;
-				padding-left: 10px;
-				margin: $margin-principal;
-			}
-		}
-		.contenedor-img {
-			width: 80px;
-
-			img {
-				width: 100%;
-			}
-		}
-	}
 }
 .contenedor-card {
 	display: flex;
