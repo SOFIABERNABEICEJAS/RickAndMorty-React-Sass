@@ -19,20 +19,25 @@
 			width: 100%;
 		}
 	}
-	.contenedor-botones {
+	.contenedor-link {
 		display: flex;
 		align-items: flex-end;
 
-		button {
-			font-family: $tipografia-principal;
-			font-size: x-large;
-			margin: $margin-secundario;
-			border: none;
-			height: 45px;
-			border-radius: $border-radius;
-			background-color: $color-principal;
-			color: $color-segundario;
-			box-shadow: $sombra-principal;
+		ul {
+			display: flex;
+			align-items: flex-end;
+
+			li {
+				list-style: none;
+				font-family: $tipografia-principal;
+				font-size: x-large;
+				margin: $margin-secundario;
+				height: 45px;
+				border-radius: $border-radius;
+				background-color: $color-principal;
+				color: $color-segundario;
+				box-shadow: $sombra-principal;
+			}
 		}
 	}
 	.contenedor-imagen {

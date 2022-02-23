@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className="contenedor-redes-sociales">
-				<ul class="redes-sociales">
+				<ul>
 					<li>
 						<a href="https://github.com/SOFIABERNABEICEJAS" target="_blank">
 							<p>Github: Sofi Bernabei</p>

@@ -1,5 +1,5 @@
-const Episodio = () => {
-	return <h1>episodios</h1>;
+const Episodios = () => {
+	return <h1>esto es episodios</h1>;
 };
 
-export default Episodio;
+export default Episodios;

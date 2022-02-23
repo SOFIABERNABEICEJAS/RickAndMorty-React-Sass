@@ -8,7 +8,7 @@ const Nav = () => {
 			<div className="contenedor-titulo">
 				<img src={titulo}></img>
 			</div>
-			<div className="contenedor-botones">
+			<div className="contenedor-link">
 				<ul>
 					<li>
 						<Link to="/personajes">Personajes</Link>
@@ -20,9 +20,6 @@ const Nav = () => {
 						<Link to="/ubicacion">Ubicacion</Link>
 					</li>
 				</ul>
-				{/* <button> Personajes</button>
-				<button> Episodio</button>
-				<button> Ubicaciones</button> */}
 			</div>
 			<div className="contenedor-imagen">
 				<img src={ver}></img>

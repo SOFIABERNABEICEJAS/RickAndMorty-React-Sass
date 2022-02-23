@@ -1,5 +1,12 @@
+import "../styles/Home.scss";
+import principal from "../assets/img/principal.jpg";
+
 const Home = () => {
-	return <h1>Esto es home</h1>;
+	return (
+		<div className="contenedor-imagen">
+			<img src={principal}></img>
+		</div>
+	);
 };
 
 export default Home;
