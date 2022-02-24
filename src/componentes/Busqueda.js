@@ -1,5 +1,5 @@
 import "../styles/Busqueda.scss";
-import rickmorty from "../assets/img/ricky.png";
+import rickmorty from "../assets/img/busqueda.png";
 
 const Busqueda = ({ handleChange }) => {
 	return (
@@ -15,7 +15,7 @@ const Busqueda = ({ handleChange }) => {
 				</label>
 			</form>
 			<div className="contenedor-img">
-				<img src={rickmorty}></img>
+				<img src={rickmorty} alt="rick and Morty"></img>
 			</div>
 		</div>
 	);

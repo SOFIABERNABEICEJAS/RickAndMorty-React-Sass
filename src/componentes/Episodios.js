@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import Card from "./Card";
-import { Link } from "react-router-dom";
+import "../styles/Episodios.scss";
+
+import episodios from "../assets/img/imgEpisodio.png";
 const Episodios = () => {
 	const [episodio, setEpisodio] = useState([]);
 	useEffect(() => {
@@ -16,11 +17,16 @@ const Episodios = () => {
 		<section className="section">
 			<div className="contenedor-card">
 				{episodio.map((curr) => (
-					<Link to={`/episodios/${curr.id}`} key={curr.id}>
-						<article className="card">
-			       	<h3>{curr.name}</h3>
-	      	</article>
-					</Link>
+				
+						<article className="card" key={curr.id}>
+							<div>
+								<img src={episodios} alt="Rick and morty"></img>
+							</div>
+							<div className="info-card">
+								<h3>{curr.name}</h3>
+							</div>
+						</article>
+			
 				))}
 			</div>
 		</section>

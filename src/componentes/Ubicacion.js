@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import Card from "./Card";
-import { Link } from "react-router-dom";
+import "../styles/Ubicacion.scss";
+
+import imgUbicacion from "../assets/img/imgUbicacion.png";
 const Ubicacion = () => {
 	const [ubicacion, setUbicacion] = useState([]);
 	useEffect(() => {
@@ -16,11 +17,16 @@ const Ubicacion = () => {
 		<section className="section">
 			<div className="contenedor-card">
 				{ubicacion.map((curr) => (
-					<Link to={`/ubicacion/${curr.id}`} key={curr.id}>
-					<article className="card">
-			       	<h3>{curr.name}</h3>
-	      	</article>
-					</Link>
+					
+						<article className="card" key={curr.id}>
+							<div>
+								<img src={imgUbicacion} alt="rick and morty"></img>
+							</div>
+							<div className="info-card">
+								<h3>{curr.name}</h3>
+							</div>
+						</article>
+					
 				))}
 			</div>
 		</section>

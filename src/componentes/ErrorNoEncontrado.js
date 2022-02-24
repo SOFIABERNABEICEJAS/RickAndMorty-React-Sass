@@ -1,5 +1,5 @@
 import "../styles/ErrorNoEncontrado.scss";
-import error from "../assets/img/404ricky.png";
+import error from "../assets/img/404error.png";
 
 const ErrorNoEncontrado = () => {
 	return (

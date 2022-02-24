@@ -1,6 +1,6 @@
 import "../styles/Nav.scss";
-import titulo from "../assets/img/titulonuevo.png";
-import ver from "../assets/img/ver.png";
+import titulo from "../assets/img/navTitulo.png";
+import ver from "../assets/img/navVer.png";
 import { Link } from "react-router-dom";
 const Nav = () => {
 	return (
