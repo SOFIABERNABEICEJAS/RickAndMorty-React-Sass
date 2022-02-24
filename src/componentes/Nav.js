@@ -24,7 +24,7 @@ const Nav = () => {
 				</ul>
 			</div>
 			<div className="contenedor-imagen">
-				<img src={ver}></img>
+				<img src={ver} alt="Rick and morty"></img>
 			</div>
 		</nav>
 	);
