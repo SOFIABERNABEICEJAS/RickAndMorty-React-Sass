@@ -2,7 +2,7 @@ import "../styles/CardDetalladas.scss";
 
 const CardDetalladas = ({ img, nombre, especie, estado, genero, id }) => {
 	return (
-		<article className="card-detalladas" key={id}>
+		<article className="card-detalladas">
 			<div>
 				<img src={img} alt=""></img>
 			</div>

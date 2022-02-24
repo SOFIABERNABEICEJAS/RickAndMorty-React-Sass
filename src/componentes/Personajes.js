@@ -23,13 +23,8 @@ const Personajes = () => {
 
 			<div className="contenedor-card">
 				{personaje.map((curr) => (
-					<Link to={`/personajes/${curr.id}`}>
-						<Card
-							key={curr.id}
-							img={curr.image}
-							nombre={curr.name}
-							id={curr.id}
-						/>
+					<Link to={`/personajes/${curr.id}`} key={curr.id}>
+						<Card img={curr.image} nombre={curr.name} id={curr.id} />
 					</Link>
 				))}
 			</div>

@@ -17,7 +17,6 @@ const Detalles = () => {
 	return (
 		<div>
 			<CardDetalladas
-				key={personaje.id}
 				img={personaje.image}
 				nombre={personaje.name}
 				especie={personaje.species}

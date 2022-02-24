@@ -16,8 +16,8 @@ const Episodios = () => {
 		<section className="section">
 			<div className="contenedor-card">
 				{episodio.map((curr) => (
-					<Link to={`/ubicacion/${curr.id}`}>
-						<Card key={curr.id} url={curr.url} nombre={curr.name} />
+					<Link to={`/episodios/${curr.id}`} key={curr.id}>
+						<Card nombre={curr.name} />
 					</Link>
 				))}
 			</div>

@@ -16,8 +16,8 @@ const Ubicacion = () => {
 		<section className="section">
 			<div className="contenedor-card">
 				{ubicacion.map((curr) => (
-					<Link to={`/ubicacion/${curr.id}`}>
-						<Card key={curr.id} img={curr.image} nombre={curr.name} />
+					<Link to={`/ubicacion/${curr.id}`} key={curr.id}>
+						<Card nombre={curr.name} />
 					</Link>
 				))}
 			</div>
