@@ -1,10 +1,12 @@
 import "../styles/Home.scss";
-import principal from "../assets/img/principal.jpg";
+import home from "../assets/img/home.png";
 
 const Home = () => {
 	return (
-		<div className="contenedor-imagen">
-			<img src={principal}></img>
+		<div>
+			<div className="contenedor-imagen">
+				<img src={home} alt="Rick and Morty"></img>
+			</div>
 		</div>
 	);
 };

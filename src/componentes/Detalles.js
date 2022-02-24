@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Card from "./Card";
+import CardDetalladas from "./CardDetalladas";
 
 const Detalles = () => {
 	const params = useParams();
@@ -16,7 +16,7 @@ const Detalles = () => {
 
 	return (
 		<div>
-			<Card
+			<CardDetalladas
 				key={personaje.id}
 				img={personaje.image}
 				nombre={personaje.name}

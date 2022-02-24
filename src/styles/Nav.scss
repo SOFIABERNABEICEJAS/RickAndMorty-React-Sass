@@ -21,13 +21,13 @@
 	}
 	.contenedor-link {
 		display: flex;
-		align-items: flex-end;
 
 		ul {
 			display: flex;
 			align-items: flex-end;
 
 			li {
+				display: flex;
 				list-style: none;
 				font-family: $tipografia-principal;
 				font-size: x-large;
@@ -42,8 +42,13 @@
 	}
 	.contenedor-imagen {
 		margin-bottom: $margin-principal;
+		width: 220px;
 		img {
 			width: 100%;
 		}
 	}
+}
+a {
+	text-decoration: none;
+	color: $color-segundario;
 }

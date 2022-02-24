@@ -28,9 +28,7 @@ const Personajes = () => {
 							key={curr.id}
 							img={curr.image}
 							nombre={curr.name}
-							especie={curr.species}
-							estado={curr.status}
-							genero={curr.gender}
+							id={curr.id}
 						/>
 					</Link>
 				))}

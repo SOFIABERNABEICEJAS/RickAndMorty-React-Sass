@@ -6,18 +6,20 @@ const Nav = () => {
 	return (
 		<nav className="nav">
 			<div className="contenedor-titulo">
-				<img src={titulo}></img>
+				<Link to="/">
+					<img src={titulo} alt="titulo Rick and Morty"></img>
+				</Link>
 			</div>
 			<div className="contenedor-link">
 				<ul>
 					<li>
-						<Link to="/personajes">Personajes</Link>
+						<Link to="/personajes">Character</Link>
 					</li>
 					<li>
-						<Link to="/Episodio">Episodio</Link>
+						<Link to="/episodios">Episode</Link>
 					</li>
 					<li>
-						<Link to="/ubicacion">Ubicacion</Link>
+						<Link to="/ubicacion">Location</Link>
 					</li>
 				</ul>
 			</div>
