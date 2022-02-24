@@ -1,10 +1,10 @@
 import "../styles/CardDetalladas.scss";
 
-const CardDetalladas = ({ img, nombre, especie, estado, genero, id }) => {
+const CardDetalladas = ({ imgg, nombre, especie, estado, genero, id }) => {
 	return (
 		<article className="card-detalladas">
 			<div>
-				<img src={img} alt=""></img>
+				<img src={imgg} alt=""></img>
 			</div>
 			<div className="info-card">
 				<h3>{nombre}</h3>

@@ -12,12 +12,12 @@ const Detalles = () => {
 			.then((data) => {
 				setPersonaje(data);
 			});
-	}, []);
+	}, [params.idPersonaje]);
 
 	return (
 		<div>
 			<CardDetalladas
-				img={personaje.image}
+				imgg={personaje.image}
 				nombre={personaje.name}
 				especie={personaje.species}
 				estado={personaje.status}

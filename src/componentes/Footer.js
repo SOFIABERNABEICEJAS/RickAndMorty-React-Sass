@@ -6,14 +6,14 @@ const Footer = () => {
 			<div className="contenedor-redes-sociales">
 				<ul>
 					<li>
-						<a href="https://github.com/SOFIABERNABEICEJAS" target="_blank">
+						<a href="https://github.com/SOFIABERNABEICEJAS" >
 							<p>Github: Sofi Bernabei</p>
 						</a>
 					</li>
 					<li>
 						<a
 							href="https://www.linkedin.com/in/sofia-bernabei"
-							target="_blank"
+							
 						>
 							<p>Linkedin: Sofi Bernabei</p>
 						</a>
