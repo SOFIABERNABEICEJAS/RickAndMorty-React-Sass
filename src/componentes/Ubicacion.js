@@ -17,7 +17,9 @@ const Ubicacion = () => {
 			<div className="contenedor-card">
 				{ubicacion.map((curr) => (
 					<Link to={`/ubicacion/${curr.id}`} key={curr.id}>
-						<Card nombre={curr.name} />
+					<article className="card">
+			       	<h3>{curr.name}</h3>
+	      	</article>
 					</Link>
 				))}
 			</div>
