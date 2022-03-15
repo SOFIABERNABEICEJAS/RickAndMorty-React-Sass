@@ -21,9 +21,11 @@
 	}
 	.contenedor-link {
 		display: flex;
+		justify-content: center;
 
 		ul {
 			display: flex;
+			justify-content: center;
 			align-items: flex-end;
 
 			li {

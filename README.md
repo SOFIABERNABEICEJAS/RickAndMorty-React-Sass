@@ -1,3 +1,5 @@
+![Minion](https://main--rick-and-morty-react-sass.netlify.app/assets/img/proyecto.png)
+
 # RICK AND MORTY 💥
 
 ###### Es un proyecto que realizamos para practicar REACT e integrar todo lo aprendido.
@@ -20,6 +22,6 @@
 - Renderizado condicional
 - Elevación de estado
 
-####[Link al proyecto](https://main--rick-and-morty-react-sass.netlify.app/)
+#### [Link al proyecto](https://main--rick-and-morty-react-sass.netlify.app/)
 
 Todavía queda mucho por hacer y mejorar.
