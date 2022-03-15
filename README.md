@@ -1,5 +1,3 @@
-![rick and morty](https://main--rick-and-morty-react-sass.netlify.app/sr/assets/img/proyecto.png)
-
 # RICK AND MORTY 💥
 
 ###### Es un proyecto que realizamos para practicar REACT e integrar todo lo aprendido.
