@@ -1,4 +1,4 @@
-![Minion](https://main--rick-and-morty-react-sass.netlify.app/assets/img/proyecto.png)
+![rick and morty](https://main--rick-and-morty-react-sass.netlify.app/sr/assets/img/proyecto.png)
 
 # RICK AND MORTY 💥
 
