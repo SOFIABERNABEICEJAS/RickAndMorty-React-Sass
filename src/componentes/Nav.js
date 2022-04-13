@@ -3,6 +3,7 @@ import titulo from "../assets/img/navTitulo.png";
 import ver from "../assets/img/navVer.png";
 import { Link } from "react-router-dom";
 const Nav = () => {
+	const mobile = window.innerWidth < 600;
 	return (
 		<nav className="nav">
 			<div className="contenedor-titulo">
@@ -23,9 +24,11 @@ const Nav = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="contenedor-imagen">
-				<img src={ver} alt="Rick and morty"></img>
-			</div>
+			{!mobile && (
+				<div className="contenedor-imagen">
+					<img src={ver} alt="Rick and morty"></img>
+				</div>
+			)}
 		</nav>
 	);
 };

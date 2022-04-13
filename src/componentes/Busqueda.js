@@ -6,12 +6,8 @@ const Busqueda = ({ handleChange }) => {
 		<div className="contenedor-form">
 			<form>
 				<label>
-					Iniciar busqueda:
-					<input
-						type="text"
-						onChange={handleChange}
-						placeholder="Iniciar busqueda"
-					/>
+					Search:
+					<input type="text" onChange={handleChange} placeholder="Search" />
 				</label>
 			</form>
 			<div className="contenedor-img">

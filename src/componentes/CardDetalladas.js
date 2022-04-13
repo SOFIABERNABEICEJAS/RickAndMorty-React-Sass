@@ -4,7 +4,7 @@ const CardDetalladas = ({ imgg, nombre, especie, estado, genero, id }) => {
 	return (
 		<article className="card-detalladas">
 			<div>
-				<img src={imgg} alt=""></img>
+				<img src={imgg} alt={nombre}></img>
 			</div>
 			<div className="info-card">
 				<h3>{nombre}</h3>

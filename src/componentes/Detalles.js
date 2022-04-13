@@ -10,7 +10,7 @@ const Detalles = () => {
 		fetch(`https://rickandmortyapi.com/api/character/${params.idPersonaje}`)
 			.then((res) => res.json())
 			.then((data) => {
-				setPersonaje(data);
+				setPersonaje(data.results);
 			});
 	}, [params.idPersonaje]);
 

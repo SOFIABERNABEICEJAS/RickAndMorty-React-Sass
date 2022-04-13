@@ -9,16 +9,16 @@
 	background-color: $color-principal;
 
 	.contenedor-titulo {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+		@include flex-centrar-alinear;
 		margin-bottom: $margin-principal;
 		margin-left: $margin-principal;
-		width: 300px;
+		width: 240px;
+
 		img {
 			width: 100%;
 		}
 	}
+
 	.contenedor-link {
 		display: flex;
 		justify-content: center;
@@ -27,12 +27,12 @@
 			display: flex;
 			justify-content: center;
 			align-items: flex-end;
-
+			padding: 0;
 			li {
 				display: flex;
 				list-style: none;
 				font-family: $tipografia-principal;
-				font-size: x-large;
+				font-size: 30px;
 				margin: $margin-secundario;
 				height: 45px;
 				border-radius: $border-radius;
@@ -43,8 +43,10 @@
 		}
 	}
 	.contenedor-imagen {
+		display: flex;
+		align-items: center;
 		margin-bottom: $margin-principal;
-		width: 220px;
+		width: 240px;
 		img {
 			width: 100%;
 		}
@@ -53,4 +55,109 @@
 a {
 	text-decoration: none;
 	color: $color-segundario;
+}
+
+//RESPONSIVE
+@media screen and (max-width: 800px) {
+	.nav {
+		.contenedor-titulo {
+			@include flex-centrar-alinear;
+			width: 220px;
+		}
+
+		.contenedor-link {
+			ul {
+				li {
+					font-size: 25px;
+					margin: 8px;
+					height: 43px;
+				}
+			}
+		}
+		.contenedor-imagen {
+			width: 220px;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+
+		.contenedor-titulo {
+			@include flex-centrar-alinear;
+
+			margin-bottom: 0px;
+			margin-left: 0px;
+			width: 200px;
+		}
+
+		.contenedor-link {
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					font-size: 19px;
+					margin: 10px;
+					height: 30px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 600px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.contenedor-titulo {
+			@include flex-centrar-alinear;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			width: 220px;
+		}
+
+		.contenedor-link {
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					font-size: 22px;
+					margin: 12px;
+					height: 35px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.contenedor-titulo {
+			@include flex-centrar-alinear;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			width: 180px;
+		}
+
+		.contenedor-link {
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					font-size: 20px;
+					margin: 10px;
+					height: 30px;
+				}
+			}
+		}
+	}
 }

@@ -9,13 +9,12 @@ footer {
 	color: $color-segundario;
 	@include flex-colum;
 	.contenedor-redes-sociales {
-		margin: $margin-principal;
-
 		ul {
 			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
+			justify-content: space-between;
+			padding: 0%;
 			li {
+				margin: 10px;
 				list-style: none;
 				border-radius: $border-radius;
 				box-shadow: $sombra-principal;

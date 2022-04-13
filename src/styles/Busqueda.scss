@@ -27,3 +27,35 @@
 		}
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.contenedor-form {
+		form {
+			input {
+				width: 180px;
+				height: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.contenedor-form {
+		@include flex-central;
+		width: 100%;
+		margin: $margin-principal;
+		font-size: medium;
+		form {
+			padding-left: 3px;
+			input {
+				width: 150px;
+
+				padding-left: 0px;
+				margin: 10px;
+			}
+		}
+		.contenedor-img {
+			width: 70px;
+		}
+	}
+}
