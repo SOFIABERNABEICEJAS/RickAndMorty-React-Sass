@@ -23,3 +23,4 @@
 #### [Link al proyecto](https://main--rick-and-morty-react-sass.netlify.app/)
 
 Todavía queda mucho por hacer y mejorar.
+(No es un trabajo terminado, solo lo realice para ir implementando los temas aprendidos)
