@@ -21,7 +21,6 @@ function App() {
 					<Route path="/ubicacion" element={<Ubicacion />} />
 					<Route path="*" element={<ErrorNoEncontrado />} />
 				</Routes>
-
 				<Footer />
 			</BrowserRouter>
 		</div>
