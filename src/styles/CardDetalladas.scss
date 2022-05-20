@@ -24,3 +24,12 @@
 		}
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.card-detalladas {
+		width: 200px;
+		padding: 8px;
+		margin: 8px;
+		font-size: 20px;
+	}
+}
