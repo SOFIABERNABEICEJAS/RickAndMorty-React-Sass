@@ -5,14 +5,15 @@
 	display: flex;
 	justify-content: space-between;
 	width: 95%;
+
 	border-radius: $border-radius;
 	background-color: $color-principal;
 
 	.contenedor-titulo {
 		@include flex-centrar-alinear;
-		margin-bottom: $margin-principal;
+		padding-bottom: $margin-principal;
 		margin-left: $margin-principal;
-		width: 240px;
+		width: 200px;
 
 		img {
 			width: 100%;
@@ -45,8 +46,8 @@
 	.contenedor-imagen {
 		display: flex;
 		align-items: center;
-		margin-bottom: $margin-principal;
-		width: 240px;
+		width: 200px;
+		height: 140px;
 		img {
 			width: 100%;
 		}
